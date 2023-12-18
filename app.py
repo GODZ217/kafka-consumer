@@ -3,25 +3,25 @@ import time
 from kafka.errors import KafkaError
 from kafka import KafkaConsumer
 
-#environment variable production
-# BOOTSTRAP_SERVER = os.getenv('BOOTSTRAP_SERVER')
-# USERNAME = os.getenv('USERNAME')
-# PASSWORD = os.getenv('PASSWORD')
-# TOPIC = os.getenv('TOPIC')
-# SECURITY_PROTOCOL = os.getenv('SECURITY_PROTOCOL')
-# SASL_MECHANISM = os.getenv('SASL_MECHANISM')
-# GROUP_ID = os.getenv('GROUP_ID')
-# SSL_CHECK_HOSTNAME = os.getenv('SSL_CHECK_HOSTNAME')
+environment variable production
+BOOTSTRAP_SERVER = os.getenv('BOOTSTRAP_SERVER')
+USERNAME = os.getenv('USERNAME')
+PASSWORD = os.getenv('PASSWORD')
+TOPIC = os.getenv('TOPIC')
+SECURITY_PROTOCOL = os.getenv('SECURITY_PROTOCOL')
+SASL_MECHANISM = os.getenv('SASL_MECHANISM')
+GROUP_ID = os.getenv('GROUP_ID')
+SSL_CHECK_HOSTNAME = os.getenv('SSL_CHECK_HOSTNAME')
 
 #environment variable dev
-BOOTSTRAP_SERVER='kafka.confluent.svc.cluster.local:9092'
-USERNAME='kafka'
-PASSWORD='kafka-secret'
-TOPIC='test'
-SECURITY_PROTOCOL='SASL_SSL'
-SASL_MECHANISM='PLAIN'
-GROUP_ID = 'test'
-SSL_CHECK_HOSTNAME=False
+# BOOTSTRAP_SERVER='kafka.confluent.svc.cluster.local:9092'
+# USERNAME='kafka'
+# PASSWORD='kafka-secret'
+# TOPIC='test'
+# SECURITY_PROTOCOL='SASL_SSL'
+# SASL_MECHANISM='PLAIN'
+# GROUP_ID = 'test'
+# SSL_CHECK_HOSTNAME=False
 
 print("BOOTSTRAP_SERVER: ", BOOTSTRAP_SERVER)
 print("USERNAME: ", USERNAME)
