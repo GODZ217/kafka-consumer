@@ -1,4 +1,4 @@
-FROM default-route-openshift-image-registry.apps.dev.customs.go.id/openshift/python:alphine
+FROM default-route-openshift-image-registry.apps.dev.customs.go.id/openshift/python:alpine
 
 WORKDIR /app
 ENV PYTHONPATH /app
