@@ -1,4 +1,4 @@
-FROM image-registry.openshift-image-registry.svc:5000/openshift/python
+FROM image-registry.openshift-image-registry.svc:5000/openshift/python:alphine
 
 WORKDIR /app
 ENV PYTHONPATH /app
