@@ -14,7 +14,7 @@ from kafka import KafkaConsumer
 # SSL_CHECK_HOSTNAME = os.getenv('SSL_CHECK_HOSTNAME')
 
 #environment variable dev
-BOOTSTRAP_SERVER='kafka.apps.dev.customs.go.id:443'
+BOOTSTRAP_SERVER='kafka.confluent.svc.cluster.local:9092'
 USERNAME='kafka'
 PASSWORD='kafka-secret'
 TOPIC='test'
