@@ -41,7 +41,7 @@ consumer = KafkaConsumer(
     sasl_plain_password=PASSWORD,
     group_id=GROUP_ID,
     client_id= 'python-pod'+'-'+TOPIC+GROUP_ID,
-    SSL_CHECK_HOSTNAME=SSL_CHECK_HOSTNAME,
+    #SSL_CHECK_HOSTNAME=SSL_CHECK_HOSTNAME,
     # auto_offset_reset='earliest',
 )
 
