@@ -5,12 +5,12 @@ from kafka import KafkaConsumer
 
 # environment variable production
 BOOTSTRAP_SERVER = os.getenv('BOOTSTRAP_SERVER')
-USERNAME = os.getenv('USERNAME')
+USERNAME = os.getenv('kafka')
 PASSWORD = os.getenv('PASSWORD')
-TOPIC = os.getenv('TOPIC')
+TOPIC = os.getenv('pindah-data-carnet')
 SECURITY_PROTOCOL = os.getenv('SECURITY_PROTOCOL')
 SASL_MECHANISM = os.getenv('SASL_MECHANISM')
-GROUP_ID = os.getenv('GROUP_ID')
+GROUP_ID = os.getenv('test')
 SSL_CHECK_HOSTNAME = os.getenv('SSL_CHECK_HOSTNAME')
 
 #environment variable dev
