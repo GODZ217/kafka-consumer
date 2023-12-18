@@ -3,7 +3,7 @@ import time
 from kafka.errors import KafkaError
 from kafka import KafkaConsumer
 
-environment variable production
+# environment variable production
 BOOTSTRAP_SERVER = os.getenv('BOOTSTRAP_SERVER')
 USERNAME = os.getenv('USERNAME')
 PASSWORD = os.getenv('PASSWORD')
